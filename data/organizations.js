@@ -11,7 +11,7 @@ const organizations = [
     {
         name: "Identity Clarity",
         label: "KYC Identity Verifier",
-        logo: "/truxt-x-logo.png",
+        logo: "/trust-x-logo.png",
         description: "Streamlining Secure Identity Verification to Enhance Customer Trust and Compliance.",
         url: "/partners",
         size: [198, 34],

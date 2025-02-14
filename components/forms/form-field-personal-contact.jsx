@@ -93,7 +93,7 @@ const UsaCitizen = ({ control }) => (
         name="ssn"
         render={({ field }) => (
           <FormItem className='w-80'>
-            <FormLabel>Social Security Number</FormLabel>
+            <FormLabel>National Insurance Number</FormLabel>
             <FormControl>
               <Input placeholder="Enter SSN" {...field} />
             </FormControl>

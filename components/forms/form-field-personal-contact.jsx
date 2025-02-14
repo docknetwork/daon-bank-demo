@@ -95,7 +95,7 @@ const UsaCitizen = ({ control }) => (
           <FormItem className='w-80'>
             <FormLabel>National Insurance Number</FormLabel>
             <FormControl>
-              <Input placeholder="Enter SSN" {...field} />
+              <Input placeholder="Enter National Insurance Number" {...field} />
             </FormControl>
             <FormMessage />
           </FormItem>

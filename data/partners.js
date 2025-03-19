@@ -6,7 +6,7 @@ const partners = [
         url: "/partners/clarity",
         description: "TrustX is the KYC provider to the clarity partners ecosystem",
         background: "#D19C3C",
-        sizes: [198, 34],
+        sizes: [199, 120],
         links: []
     },
     {
@@ -16,7 +16,7 @@ const partners = [
         url: "/partners/forsur",
         description: "Forsur offers biometric credentials.",
         background: "#3D4C41",
-        sizes: [93, 82],
+        sizes: [199, 120],
         links: []
     },
     {

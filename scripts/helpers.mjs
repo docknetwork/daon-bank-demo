@@ -21,7 +21,7 @@ export async function waitForJob(jobId, headers, resolve, reject) {
   }
 
   if (resolve && reject) {
-    const jobDataResponse = await axios.get(`${process.env.DOCK_API_URL}/jobs/${jobId}`, headers);
+    const jobDataResponse = await axios.get(`https://api-testnet.dock.io/jobs/${jobId}`, headers);
     const { status } = jobDataResponse.data;
     if (status === 'todo' || status === 'in_progress') {
       setTimeout(() => {

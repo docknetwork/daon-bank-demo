@@ -14,7 +14,7 @@ const organizations = [
         logo: "/trust-x-logo.png",
         description: "Streamlining Secure Identity Verification to Enhance Customer Trust and Compliance.",
         url: "/partners",
-        size: [198, 34],
+        size: [199, 120],
         button: true
     },
     {
@@ -23,7 +23,7 @@ const organizations = [
         logo: "/forsur.png",
         description: "Revolutionizing Security with Cutting-Edge Fingerprint, Facial, and Voice Recognition Technologies.",
         url: "/org/forsur",
-        size: [93, 82],
+        size: [199, 120],
         button: false
     },
     {

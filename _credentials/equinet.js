@@ -10,7 +10,7 @@ export function createCreditScoreCredential({ receiverDid, recipientEmail, credi
       algorithm: 'bbdt16',
       credential: {
         name: 'EquiNet - Credit Score',
-        schema: 'https://schema.dock.io/EquiNetCreditScore-V2-1706975901761.json',
+        schema: 'https://schema.truvera.io/EquiNetCreditScore-V2-1745404966451.json',
         description: 'This schema represents a Verified Credit Score Credential, issued by EquiNet. It standardizes the presentation of credit scores for reliable and efficient verification processes.',
         type: [
           'VerifiableCredential',

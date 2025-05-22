@@ -98,8 +98,13 @@ const QuotientBankForm = () => {
 
   function getBiometricalData() {
     if (retrievedData !== null) {
-      const credential = retrievedData.credentials.find((obj) => Object.prototype.hasOwnProperty.call(obj.credentialSubject, 'biometric'));
-      if (credential) return credential.credentialSubject.biometric;
+      const credential = retrievedData.credentials.find((obj) => Object.prototype.hasOwnProperty.call(obj.credentialSubject, 'biometric_enrollment_id'));
+      if (credential) {
+        return {
+          id: credential.credentialSubject.biometric_enrollment_id,
+          created: credential.issuanceDate,
+        };
+      }
     }
     return null;
   }

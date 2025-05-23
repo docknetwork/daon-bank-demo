@@ -112,7 +112,6 @@ const QuotientBankForm = () => {
     // eslint-disable-next-line
   }, [verified]);
 
-
   return (
     <>
       <Head>

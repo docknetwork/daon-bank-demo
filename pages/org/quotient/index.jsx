@@ -58,7 +58,7 @@ const QuotientBankForm = () => {
   });
 
   const [isLoading, setIsLoading] = useState(false);
-  const [isSuccess, setIsSuccess] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(true);
   const [isCaptureCompleted, setIsCaptureCompleted] = useState(false);
   const [isUploadPoDComplete, setIsUploadPoDComplete] = useState(false);
   const proofTemplateId = PROOFT_TEMPLATES_IDS.BIOMETRIC_VERIFICATION;
@@ -177,7 +177,7 @@ const QuotientBankForm = () => {
       {isSuccess ? (
         <div className='mainContainer'>
           <QuotientSuccess
-            title={'Your account has been opened!'}
+            title={'Open New Banking Account'}
             proofTemplateId={proofTemplateId} />
         </div>
       ) : (

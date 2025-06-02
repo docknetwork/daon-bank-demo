@@ -21,7 +21,7 @@ import { CheckCircle2 } from 'lucide-react';
 
 /**
  * @description Quotient Form to create new bank account.
- * @todo refactor this page by making code more modularTake
+ * @todo refactor this page by making code more modular
  * @returns React.FC page
  */
 const QuotientBankForm = () => {
@@ -125,7 +125,7 @@ const QuotientBankForm = () => {
               <div className='flex flex-col items-center justify-center min-h-[60vh]'>
                 <div className='bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center max-w-xl w-full'>
                   <CheckCircle2 className='w-16 h-16 text-green-500 mb-4' />
-                  <h2 className='text-2xl font-bold mb-2 text-center'>Verification Successful!</h2>
+                  <h2 className='text-2xl font-bold mb-2 text-center'>Bank Account Opened!</h2>
                   <p className='text-base text-center mb-4 text-gray-700'>Your identity has been verified and your new bank account is ready.</p>
                   <Separator className='my-4' />
                   <p className='font-semibold text-center mb-2'>We&apos;ve sent you a <span className='text-blue-700'>Quotient Bank Identity Credential</span> and a <span className='text-blue-700'>EquiNet - Credit Score</span> credential.</p>

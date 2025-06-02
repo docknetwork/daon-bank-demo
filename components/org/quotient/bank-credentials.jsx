@@ -5,7 +5,7 @@ import qrCodeStore from 'store/qrCodeStore';
 const credentials = {
     biometric: {
         title: 'Biometric Check',
-        description: 'ForSur'
+        description: 'Daon'
     },
     loan: {
         title: 'Bank Customer Identity',
